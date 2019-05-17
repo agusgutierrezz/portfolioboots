@@ -30,16 +30,62 @@ font-weight: bold;
 p{
   font-family: 'Lato', sans-serif;
   color: white;
-  font-weight: bold;
   font-size: 1.5rem;
+  font-weight: bold;
+}
+label{
+  font-family: 'Lato', sans-serif;
+  color: #2C3E50;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 div#cv{
   background-color: #18BC9C;
 }
 div#portfolio h1{
   color: #2C3E50;
-  font-weight: bold;
+  font-weight: bolder;
+}
+div#portfolio i{
+  color: #2C3E50;
+  font-size: 3em;
 }
 div#home img{
   width: 90%;
+}
+div#about.text-center{
+  background-color:#18BC9C;
+}
+div#contact h1{
+  color: #2C3E50;
+  font-weight: bold;
+}
+button.btn.btn-primary{
+background-color:  #18BC9C;
+color: white;
+font-weight: bold;
+}
+form input{
+  border:1px solid white;
+}
+div#location{
+  background-color: #2C3E50;
+}
+div#location i{
+  color: white;
+  font-size: 3em;
+}
+div#location span{
+  color:#18BC9C;
+}
+footer{
+  background-color: black;
+}
+div#about i{
+  color: white;
+  font-size: 3em;
+}
+div#contact i{
+  color:#2C3E50;
+  font-size: 3em;
 }
