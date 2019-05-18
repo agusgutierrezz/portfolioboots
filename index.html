@@ -12,8 +12,9 @@
     <title>Portfolio</title>
   </head>
   <body>
+    <div class="container pl-0">
     <header>
-    <h3 class="ml-2 pt-3">FREELANCE PORTFOLIO</h3>
+    <h3 class="ml-3 pt-3">FREELANCE PORTFOLIO</h3>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
   <a href="#">MENU</a>
@@ -21,93 +22,137 @@
 </button>
 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
   <div class="navbar-nav">
-    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-    <a class="nav-item nav-link" href="#">Features</a>
-    <a class="nav-item nav-link" href="#">Pricing</a>
-    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+    <a class="nav-item nav-link" href="#about">About</a>
+    <a class="nav-item nav-link" href="#porfolio">Portfolio</a>
+    <a class="nav-item nav-link" href="#contact">Contact</a>
   </div>
 </div>
 </nav>
   </header>
   <div id="cv">
-     <div class="text-center pt-3">
+     <div class="text-center pt-4">
       <img src="html\images\profile.png" class="rounded" alt="...">
       </div>
       <h1 class="text-center">FREELANCE PORTFOLIO</h1>
-    <p class="text-center">Web Developer - Graphic Artist- User Experience Designer</p>
+    <p class="text-center pb-4">Web Developer - Graphic Artist- User Experience Designer</p>
 </div>
 <div id="portfolio" class="text-center pt-3">
     <h1 class="font-weight-bold">PORTFOLIO</h1>
     <i class="fas fa-star"></i>
 </div>
-<div id="home" class="text-center mt-3">
-  <img src="html\images\cabin.png"  class="rounded" alt="">
-</div>
-<div id="home" class="text-center mt-3">
-  <img src="html\images\cake.png"  class="rounded" alt="">
-</div>
-<div id="home" class="text-center mt-3">
-  <img src="html\images\circus.png"  class="rounded" alt="">
-</div>
-<div id="home" class="text-center mt-3">
-  <img src="html\images\game.png"  class="rounded" alt="">
-</div>
-<div id="home" class="text-center mt-3">
-  <img src="html\images\safe.png"  class="rounded" alt="">
-</div>
-<div id="home" class="text-center mt-3">
-  <img src="html\images\submarine.png"  class="rounded" alt="">
+<div class="row">
+  <div id="home" class="text-center mt-3 col-lg-4">
+    <img src="html\images\cabin.png"  class="rounded" alt="">
+  </div>
+  <div id="home" class="text-center mt-3 col-lg-4">
+    <img src="html\images\cake.png"  class="rounded" alt="">
+  </div>
+  <div id="home" class="text-center mt-3 col-lg-4">
+    <img src="html\images\circus.png"  class="rounded" alt="">
+  </div>
+  <div id="home" class="text-center mt-3 col-lg-4">
+    <img src="html\images\game.png"  class="rounded" alt="">
+  </div>
+  <div id="home" class="text-center mt-3 col-lg-4">
+    <img src="html\images\safe.png"  class="rounded" alt="">
+  </div>
+  <div id="home" class="text-center mt-3 col-lg-4">
+    <img src="html\images\submarine.png"  class="rounded" alt="">
+  </div>
+
 </div>
 <div id="about" class="text-center mt-5">
-  <h1>ABOUT</h1>
-  <i class="fas fa-star"></i>
-   <p class="ml-2 mr-2 mt-3">Freelancer is a free landing page theme created for free use. The download includes the complete source files including the HTML, CSS and JavaScript as well as optional SASS stylesheets for easy customization. </p>
-   <p class="ml-2 mr-2 pb-3">Wether you're a student looking to showcase your work,  a professional looking to attract clilents, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+  <h1 class="p-4">ABOUT</h1>
+  <i class="fas fa-star p-4"></i>
+
+  <div class="row">
+
+  <p class="col-12 col-lg-6 p-4">Freelancer is a free landing page theme created for free use. The download includes the complete source files including the HTML, CSS and JavaScript as well as optional SASS stylesheets for easy customization. </p>
+   <p class="col-12 col-lg-6 p-4">Wether you're a student looking to showcase your work,  a professional looking to attract clilents, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+
+  </div>
+
 </div>
 <div id="contact"class="text-center pt-4">
   <h1>CONTACT ME</h1>
   <i class="fas fa-star"></i>
   </div>
-  <form class="ml-3 mr-2 pt-4">
-    <div class="form-group">
-      <div class="form-group">
-        <label for="exampleInputPassword1">Name</label>
-        <input type="text" class="form-control" id="exampleInputPassword1">
-      </div>
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Phone Numer</label>
-      <input type="number" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="form-group">
-    <label for="exampleFormControlTextarea1">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-
-    <button type="submit" class="btn btn-primary">Send</button>
-  </form>
-  <div id="location"class="text-center mt-5">
-    <h1 class="pt-4">LOCATION</h1>
-    <p class=" mr-3">2215 John Daniel Drive Clark, MO 65243</p>
-    <h1 class="pt-4">AROUND THE WEB</h1>
-    <div class="row mt-4">
-      <i class="fab fa-facebook col"></i>
-      <i class="fab fa-google-plus col"></i>
-      <i class="fab fa-twitter col"></i>
-      <i class="fab fa-linkedin col"></i>
-      <i class="fab fa-instagram col pt-3"></i>
-    </div>
-    <h1 class="mt-4">ABOUT FREELANCER</h1>
-    <p>Freelance is a free and open source landing page theme created to <span>your free personal use</span></p>
-
-    <footer class="text-center p-4">
-      <p>Copyright 2018</p>
-    </footer>
-
+<!-- <form>
+<div class="row justify-content-center">
+ <div class="form-group">
+   <div class="form-group col-12 col-lg-4">
+     <label for="exampleInputPassword1">Name</label>
+     <input type="text" class="form-control" id="exampleInputPassword1">
+   </div>
+   <div class="form-group col-12 col-lg-3">
+   <label for="exampleInputEmail1">Email address</label>
+   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+ </div>
+ <div class="form-group col-12 col-lg-3">
+   <label for="exampleInputPassword1">Phone Numer</label>
+   <input type="number" class="form-control" id="exampleInputPassword1">
+ </div>
+ <div class="form-group col-12 col-lg-3">
+ <label for="exampleFormControlTextarea1">Message</label>
+ <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
+<div class="form-group col-12 col-lg-3">
+ <button type="submit" class="btn btn-primary">Send</button>
+</div>
+</div>
+</div>
+</form>  -->
+<form class="mx-auto">
+ <div class="form-group col-sm-12 col-lg-12">
+     <label for="exampleInputPassword1">Name</label>
+     <input type="text" class="form-control" id="exampleInputPassword1">
+   </div>
+   <div class="form-group col-sm-12 col-lg-12">
+   <label for="exampleInputEmail1">Email address</label>
+   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+ </div>
+ <div class="form-group col-sm-12 col-lg-12">
+   <label for="exampleInputPassword1">Phone Numer</label>
+   <input type="number" class="form-control" id="exampleInputPassword1">
+ </div>
+ <div class="form-group col-sm-12 col-lg-12">
+ <label for="exampleFormControlTextarea1">Message</label>
+ <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<div class="form-group col-sm-12 col-lg-6">
+ <button type="submit" class="btn btn-primary">Send</button>
+</div>
+
+</form>
+
+  <div id="location">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="col-lg-3 pt-4" >LOCATION</h1>
+          <p class="col-lg-8">2215 John Daniel Drive Clark, MO 65243</p>
+        </div>
+        <div class="col">
+          <h1 class="col-lg-6 pt-4">AROUND THE WEB</h1>
+            <div class="">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-google-plus"></i>
+            <i class="fab fa-twitter "></i>
+            <i class="fab fa-linkedin "></i>
+            <i class="fab fa-instagram "></i>
+        </div>
+        </div>
+        <div class="col">
+          <h1 class="col-lg-3 pt-4">ABOUT FREELANCER</h1>
+          <p class="col-lg-8">Freelance is a free and open source landing page theme created to your <span>free personal use</span> </p>
+        </div>
+      </div>
+
+    </div>
+</div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
